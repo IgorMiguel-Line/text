@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pladisem</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <script type="module" src="./JS/firebase.js" defer></script>
+</head>
+<body>
+    <section class="one action" id="one">
+        <div class="one-div">
+            <div class="img">
+                <img src="./IMG/image.png" alt="img">
+            </div>
+            <div class="one-info">
+                <h1>Pladisem</h1>
+                <h3>Sobre nós</h3>
+                <p>Nossa plataforma de gerenciamento de seminários oferece ferramentas avançadas para organizar e participar de eventos, promovendo uma experiência fluida e o avanço do conhecimento.</p>
+                <button onclick="oneLogin()">
+                    Login
+                </button>
+                <button onclick="oneCadastro()">
+                    Cadastro
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="two " id="two">
+        <div class="two-div">
+            <div class="two-info">
+                <div class="two-form">
+                    <input placeholder="E-mail" type="text" id="emailLogin" name="username" required><br><br>
+                    <input placeholder="Senha" type="password" id="passwordLogin" name="password" required><br><br>
+                    <button id="buttonLogin">Login</button>
+                    <a onclick="twoCadastro()">Não possui Login?</a>
+                </div>
+            </div>
+            <div class="img">
+                <img src="./IMG/image.png" alt="img">
+            </div>
+        </div>
+    </section>
+    <section class="three" id="three">
+        <div class="three-div">
+            <div class="three-info">
+                <div class="three-form">
+                    <input placeholder="Username" type="text" id="usernameCadastro" name="username" required><br><br>
+                    <input placeholder="E-mail" type="email" id="emailCadastro" name="username" required><br><br>
+                    <input placeholder="Senha" type="password" id="passwordCadastro" name="password" required><br><br>
+                    <button id="buttonCadastro">Cadastro</button>
+                    <a onclick="threeLogin()">Já possui login?</a>
+                </div>
+            </div>
+            <div class="img">
+                <img src="./IMG/image.png" alt="img">
+            </div>
+        </div>
+    </section>
+    <section class="four" id="four">
+        <div class="four-div">
+            <div class="four-info block" id="four-info">
+                <img src="#" alt="perfil">
+                <h1 id="usernamePerfil">Username</h1>
+                <h3 id="emailPerfil">E-mail</h3>
+                <button onclick="fourLogin()">
+                    Mudar de conta
+                </button>
+                <button onclick="fourlogOut()">
+                    Sair
+                </button>
+                <button class="four-voltar" onclick="fourexitMenu()">
+                    Voltar
+                </button>
+            </div>
+            <div class="four-cards">
+                <div class="four-menu">
+                    <img src="./IMG/menu-removebg-preview.png" alt="menu" onclick="fouropenMenu()">
+                </div>
+                <div class="four-add">
+                    <button class="four-add-card" onclick="fouropenPopup()">+</button>
+                </div>
+                <div class="four-cards-position" id="four-cards-position">
+                </div>
+                <div class="four-popup" id="four-popup">
+                    <h1>Add Sala</h1>
+                    <input placeholder="Insira o nome da sala" type="text" id="name-class" name="name-class" required><br><br>
+                    <input placeholder="Conteúdo do seminario" type="text" id="Conteudo-seminario" name="Conteúdo do seminario" required><br><br>
+                    <input placeholder="Critérios avaliativos" type="text" id="criterios-seminario" name="Critérios avaliativos" required><br><br>
+                    <button id="criarSala">Criar Sala</button>
+                    <p onclick="fourexitPopup()">Fechar pop-up</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="five" id="five">
+        <div class="five-div">
+            <div class="five-info block" id="five-info">
+                <img src="#" alt="perfil">
+                <h1 id="usernameFive">Username</h1>
+                <h3 id="emailFive">E-mail</h3>
+                <button onclick="fiveLogin()">
+                    Mudar de conta
+                </button>
+                <button onclick="fivelogOut()">
+                    Sair
+                </button>
+                <button class="four-voltar" onclick="fiveexitMenu()">
+                    Voltar
+                </button>
+            </div>
+            <div class="five-cards">
+                <div class="four-menu">
+                    <img src="./IMG/menu-removebg-preview.png" alt="menu" onclick="fiveopenMenu()">
+                    <div class="five-button-sort five-sort-block2">
+                        <button onclick="fiveopenPopup()">
+                            Sortear
+                        </button>
+                    </div>
+                    <div class="five-button-exit five-sort-block2 lig">
+                        <button onclick="fiveVoltar()">x</button>
+                    </div>
+                </div>
+                <div class="five-nav">
+                    <div class="text">
+                        <h1 id="five-name">NOME</h1>
+                        <h1 id="five-descricao">Descrição</h1>
+                        <h1 id="five-code">Code</h1>
+                    </div>
+                    <div class="five-button-sort five-sort-block">
+                        <button onclick="fiveopenPopup()">
+                            Sortear
+                        </button>
+                    </div>
+                    <div class="five-button-exit five-sort-block">
+                        <button onclick="fiveVoltar()">x</button>
+                    </div>
+                </div>
+                <div class="five-cards-perfil">
+                    <div class="five-card">
+                        <img src="" alt="img">
+                        <h3>Nome</h3>
+                    </div>
+                </div>
+                <div class="five-cards-grups">
+                    <div class="five-card">
+                        <h1>Nome do grupo</h1>
+                    </div>
+                </div>
+                <div class="five-popup" id="five-popup">
+                    <h1>Realizar sorteio</h1>
+                    <input placeholder="Quantidade de grupos" type="number" id="qtd-grupos" name="Qauntidade de grupos" required><br><br>
+                    <button type="submit">Realizar sorteio</button>
+                    <p onclick="fiveexitPopup()">Fechar pop-up</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./JS/index.js"></script>
+    <script type="module" src="./JS/firebase.js"></script>
+</body>
+</html>

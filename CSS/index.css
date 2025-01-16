@@ -1,0 +1,818 @@
+body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*section 1*/
+
+.one {
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #f8f0af;
+}
+
+.one-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{
+    width: 60%; 
+    height: 100vh;
+}
+
+.img img{
+    height: 100%;
+    width: 100%;
+}
+
+.one-info{
+    width: 40%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.one-info h1{
+    font-size: 50px;
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    margin: 0;
+}
+
+.one-info h3{
+    font-size: 25px;
+}
+
+.one-info p{
+    text-align: center;
+    padding: 0 30px;
+}
+
+.one-info button{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: #e8e7d2;
+    box-shadow: 10px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.one-info button:hover{
+    background-color: #f8f0af;
+    transform: translateY(-5px);
+}
+
+/*section 1*/
+
+/*section 2*/
+
+.two{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #f8f0af;
+}
+
+.two-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-info{
+    width: 40%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.two-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-form a{
+    cursor: pointer;
+}
+
+.two-form input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 70%;
+    margin: 15px 0 ;
+}
+
+.two-form input:focus{
+    outline: none;
+}
+
+.two-form button{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: #e8e7d2;
+    box-shadow: 10px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.two-form button:hover{
+    background-color: #f8f0af;
+    transform: translateY(-5px);
+}
+
+.two-form a{
+    margin: 10px 0;
+    text-decoration: none;
+    color: green;
+}
+
+/*section 2*/
+
+/*section 3*/
+
+.three{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #f8f0af;
+}
+
+
+.three-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.three-info{
+    width: 40%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.three-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.three-form a{
+    cursor: pointer;
+}
+
+.three-form input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 70%;
+    margin: 15px 0 ;
+}
+
+.three-form input:focus{
+    outline: none;
+}
+
+.three-form button{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: #e8e7d2;
+    box-shadow: 10px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.three-form button:hover{
+    background-color: #f8f0af;
+    transform: translateY(-5px);
+}
+
+.three-form a{
+    margin: 10px 0;
+    text-decoration: none;
+    color: green;
+}
+
+/*section 3*/
+
+/*section 4*/
+
+.four{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #f8f0af;
+}
+
+.four-div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.four-info{
+    width: 30%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.four-info img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: grey;
+}
+
+.four-info button{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: #e8e7d2;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.four-voltar{
+    display: none;
+}
+
+.four-info button:hover{
+    background-color: #f8f0af;
+    transform: translateY(-5px);
+}
+
+.four-info h1{
+    margin: 0;
+    padding: 10px 0;
+    border: 0;
+}
+
+.four-info h3{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.four-cards{
+    width: 70%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.four-add button{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.four-add{
+    width: 90%;
+    height: 5%;
+    display: flex;
+    justify-content: end;
+}
+
+.four-add button:hover{
+    background-color: #f8f0af;
+    transform: translateY(-5px);
+}
+
+.four-cards-position{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:start;
+    overflow-y: auto;
+}
+
+.four-card{
+    width: 25%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.four-card:hover{
+    background-color: #f8f0af;
+    transform: translateY(-5px);
+}
+
+.four-popup{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+    position: fixed;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.5);
+    top: 15%;
+    left: 45%;
+    display: none;
+}
+
+.four-popup input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 70%;
+    margin: 15px 0 ;
+}
+
+.four-popup input:focus{
+    outline: none;
+}
+
+.four-popup button{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: #e8e7d2;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.four-popup button:hover{
+    background-color: #f8f0af;
+    transform: translateY(-5px);
+}
+
+.four-popup p{
+    color: green;
+    cursor: pointer;
+}
+
+.four-popup h1{
+    font-size: 30px;
+}
+
+.four-descricao{
+    display: none;
+}
+
+.four-menu img{
+    display: none;
+}
+
+/*section 4*/
+
+/*section 5*/
+
+.five{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #f8f0af;
+}
+
+.five-div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.five-info{
+    width: 30%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.five-info img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: grey;
+}
+
+.five-info button{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: #e8e7d2;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.five-info button:hover{
+    background-color: #f8f0af;
+    transform: translateY(-5px);
+}
+
+.five-info h1{
+    margin: 0;
+    padding: 10px 0;
+    border: 0;
+}
+
+.five-info h3{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.five-cards{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 10px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.five-button-exit button{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.five-button-exit button:hover{
+    background-color: #f8f0af;
+    transform: translateY(-5px);
+}
+
+.five-button-sort button{
+    width: 200px;
+    height: 50px;
+    margin: 10px 10px 10px 200px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: #e8e7d2;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.five-button-sort button:hover{
+    background-color: #f8f0af;
+    transform: translateY(-5px);
+}
+
+.five-nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 20%;
+    margin: 0 0 20px 0;
+}
+
+.five-cards-perfil{
+    width: 100%;
+    height: 40%;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.five-cards-grups{
+    width: 100%;
+    height: 40%;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.five-card{
+    min-width: 25%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.five-card:hover{
+    background-color: #f8f0af;
+    transform: translateY(-5px);
+}
+
+.five-card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: grey;
+}
+
+.five-popup{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+    position: fixed;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.5);
+    top: 15%;
+    left: 45%;
+    display: none;
+}
+
+.five-popup input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 70%;
+    margin: 15px 0 ;
+}
+
+.five-popup input:focus{
+    outline: none;
+}
+
+.five-popup button{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: #e8e7d2;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.five-popup button:hover{
+    background-color: #f8f0af;
+    transform: translateY(-5px);
+}
+
+.five-popup p{
+    color: green;
+    cursor: pointer;
+}
+
+.five-popup h1{
+    font-size: 30px;
+}
+
+.five-sort-block2{
+    display: none;
+}
+
+/*section 5*/
+
+/*after*/
+
+.action{
+    display: block;
+}
+
+@media (max-width: 800px){
+
+    /*Geral*/
+
+    .img{
+        display: none;
+    }
+
+    /*Geral*/
+
+    /*one*/
+
+    .one-info{
+        width: 90%;
+    }
+
+    /*one*/
+
+    /*two*/
+
+    .two-info{
+        width: 90%;
+    }
+
+    /*two*/
+
+    /*three*/
+
+    .three-info{
+        width: 90%;
+    }
+
+    /*three*/
+
+    /*four*/
+
+    .four-info{
+        position: absolute;
+        width: 80%;
+        height: 80%;
+    }
+
+    .four-voltar{
+        display: block;
+    }
+
+    .four-menu img{
+        width: 80px;
+        cursor: pointer;
+        display: block;
+    }
+
+    .four-cards{
+        width: 90%;
+    }
+
+    /*four*/
+
+    /*five*/
+
+    .five-info{
+        position: absolute;
+        width: 80%;
+        height: 80%;
+    }
+
+    .five-voltar{
+        display: block;
+    }
+
+    .four-menu img{
+        width: 100%;
+        cursor: pointer;
+        display: block;
+    }
+
+    .four-menu {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .lig button{
+        width: 60px;
+    }
+
+    .four-menu img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .five-button-exit {
+        margin-right: 20px;
+    }
+
+    .five-cards{
+        width: 90%;
+    }
+
+    .five-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        margin: 10px;
+    }
+
+    .five-sort-block2{
+        display: block;
+    }
+
+    .five-button-sort{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .five-button-sort button{
+        width: 100px;
+        margin: 10px 10px 10px 10px;
+    }
+
+    .five-button-exit button{
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        border: 1px solid black;
+        background-color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .five-sort-block{
+        display: none;
+    }
+
+    /*five*/
+
+    /*after*/
+
+    .block{
+        display: none;
+    }
+
+    /*after*/
+
+}
+
+/*after*/
